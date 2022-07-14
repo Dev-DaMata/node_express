@@ -8,6 +8,6 @@ function Percorre (){
         arr.push(resposta)
         resposta = prompt("Propriedades css:")
     }
-    console.log(arr.sort());
+    console.log(arr.sort().join('\n'));
 }
 Percorre()
